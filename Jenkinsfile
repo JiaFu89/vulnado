@@ -1,6 +1,6 @@
 pipeline {
-	agent any{
-		docker {
+	agent {
+		docker any{
 			image 'maven'
 		}
 	}
